@@ -1,4 +1,3 @@
-fi
 echo Installing Software...
 sudo apt update -y
 sudo apt install wget git qemu-system qemu-utils python3 python3-pip -y 
@@ -19,3 +18,4 @@ echo "Open VNC Viewer and connect with port 5900"
 echo "Your VM Specs: $availableRAM"M" / $cpus CPUs"
 echo "User: Mojave-User"
 echo "Pass: 123456"
+sleep 420000
